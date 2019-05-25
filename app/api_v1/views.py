@@ -1,11 +1,13 @@
 """Api endpoints."""
 from flask_restful import Resource, reqparse
 
+# This dictionary(data) below could represent an api resource such as a Bible api or Weather api
+
 data = {
     '1': {'Name': 'Peter Ndungu', 'Age':'26'},
-    '2': 'James Kahanya',
-    '3': 'Mwangi Gateru',
-    '4': 'Jane Barbosa'
+    '2': {'Name':'James Kahanya', 'Age': '30'},
+    '3': {'Name':'Mwangi Gateru', 'Age': '21'},
+    '4': {'Name':'Jane Barbosa', 'Age': '22'}
 }
 
 
